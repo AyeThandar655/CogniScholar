@@ -1,5 +1,7 @@
 # CogniScholar
 
+Repository: https://github.com/AyeThandar655/CogniScholar
+
 **A cognitive agent with commitment–reconsideration and knowledge compilation for multi-step analysis of scientific papers.**
 CPE 633 Cognitive Computing — term project.
 
@@ -44,7 +46,9 @@ figures/           PNG figures used in the paper
 Requirements: Python ≥ 3.9.
 
 ```bash
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+git clone https://github.com/AyeThandar655/CogniScholar.git
+cd CogniScholar
+python3 -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python tests/test_core.py                               # 7 checks, < 2 s
 ```

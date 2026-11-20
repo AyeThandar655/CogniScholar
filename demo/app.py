@@ -176,7 +176,21 @@ if run:
     res = a.run(item)
     a.on_event = None
     if ent_rows:
-        st.bar_chart(pd.DataFrame(ent_rows).set_index("step"))
+        st.caption("Semantic entropy per checkpoint (dashed line = τ; 0.00 means all samples agreed)")
+        try:
+            import altair as alt
+            df_e = pd.DataFrame(ent_rows)
+            base = alt.Chart(df_e).encode(x=alt.X("step:N", title=None, sort=None, axis=alt.Axis(labelAngle=0)))
+            bars = base.mark_bar(size=60).encode(y=alt.Y("entropy:Q", scale=alt.Scale(domain=[0, 1]), title="entropy H"))
+            labels = base.mark_text(dy=-8).encode(y="entropy:Q", text=alt.Text("entropy:Q", format=".2f"))
+            rule = alt.Chart(pd.DataFrame({"tau": [tau]})).mark_rule(strokeDash=[6, 4], color="red").encode(y="tau:Q")
+            chart = (bars + labels + rule).properties(height=260)
+            try:
+                st.altair_chart(chart, width="stretch")
+            except TypeError:
+                st.altair_chart(chart, use_container_width=True)
+        except Exception:
+            st.bar_chart(pd.DataFrame(ent_rows).set_index("step"))
 
     st.subheader("3 · Output & Evaluation")
     last = [e for e in res.trace if e["event"] == "checkpoint"][-1:]

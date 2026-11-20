@@ -1,0 +1,58 @@
+{
+ "B1 CoT": {
+  "data_leakage": 0.52,
+  "distractor_dataset": 0.733,
+  "distractor_metric": 0.633,
+  "distractor_rounding": 0.4,
+  "distractor_split": 0.514,
+  "hidden_conflict": 0.467,
+  "none": 0.8,
+  "single_run": 0.429,
+  "split_mismatch": 0.325,
+  "test_set_tuning": 0.543,
+  "true_conflict": 0.825,
+  "unfair_baseline": 0.514
+ },
+ "B3 SC-CoT": {
+  "data_leakage": 0.64,
+  "distractor_dataset": 0.9,
+  "distractor_metric": 0.933,
+  "distractor_rounding": 0.686,
+  "distractor_split": 0.686,
+  "hidden_conflict": 0.467,
+  "none": 1.0,
+  "single_run": 0.429,
+  "split_mismatch": 0.35,
+  "test_set_tuning": 0.457,
+  "true_conflict": 0.925,
+  "unfair_baseline": 0.771
+ },
+ "B4 No-Compilation": {
+  "data_leakage": 0.64,
+  "distractor_dataset": 0.967,
+  "distractor_metric": 0.8,
+  "distractor_rounding": 0.914,
+  "distractor_split": 0.886,
+  "hidden_conflict": 0.533,
+  "none": 0.967,
+  "single_run": 0.543,
+  "split_mismatch": 0.675,
+  "test_set_tuning": 0.6,
+  "true_conflict": 0.9,
+  "unfair_baseline": 0.771
+ },
+ "CogniScholar": {
+  "data_leakage": 0.76,
+  "distractor_dataset": 0.9,
+  "distractor_metric": 0.9,
+  "distractor_rounding": 0.971,
+  "distractor_split": 0.886,
+  "hidden_conflict": 0.833,
+  "none": 1.0,
+  "single_run": 0.543,
+  "split_mismatch": 0.65,
+  "test_set_tuning": 0.714,
+  "true_conflict": 0.95,
+  "unfair_baseline": 0.771
+ }
+}

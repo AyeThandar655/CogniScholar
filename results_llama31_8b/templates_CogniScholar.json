@@ -1,0 +1,82 @@
+[
+ {
+  "tid": "T001",
+  "task": "contradiction",
+  "strategy": "aligned_tuple",
+  "uses": 31,
+  "successes": 31,
+  "tokens_saved": 30694,
+  "pruned": false,
+  "utility": 144.121
+ },
+ {
+  "tid": "T003",
+  "task": "contradiction",
+  "strategy": "aligned_tuple",
+  "uses": 5,
+  "successes": 5,
+  "tokens_saved": 4642,
+  "pruned": false,
+  "utility": 31.068
+ },
+ {
+  "tid": "T004",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 4,
+  "successes": 4,
+  "tokens_saved": 13265,
+  "pruned": false,
+  "utility": 111.183
+ },
+ {
+  "tid": "T005",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 3452,
+  "pruned": false,
+  "utility": 33.799
+ },
+ {
+  "tid": "T006",
+  "task": "contradiction",
+  "strategy": "aligned_tuple",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 955,
+  "pruned": false,
+  "utility": 11.751
+ },
+ {
+  "tid": "T007",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 3426,
+  "pruned": false,
+  "utility": 53.768
+ },
+ {
+  "tid": "T008",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 3353,
+  "pruned": false,
+  "utility": 88.2
+ },
+ {
+  "tid": "T002",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ }
+]

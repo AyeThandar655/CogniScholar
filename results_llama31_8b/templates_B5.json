@@ -1,0 +1,32 @@
+[
+ {
+  "tid": "T001",
+  "task": "contradiction",
+  "strategy": "aligned_tuple",
+  "uses": 31,
+  "successes": 31,
+  "tokens_saved": 20667,
+  "pruned": false,
+  "utility": 106.934
+ },
+ {
+  "tid": "T002",
+  "task": "contradiction",
+  "strategy": "aligned_tuple",
+  "uses": 5,
+  "successes": 5,
+  "tokens_saved": 3089,
+  "pruned": false,
+  "utility": 22.876
+ },
+ {
+  "tid": "T003",
+  "task": "contradiction",
+  "strategy": "aligned_tuple",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 607,
+  "pruned": false,
+  "utility": 8.054
+ }
+]

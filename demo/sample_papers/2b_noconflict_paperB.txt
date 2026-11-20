@@ -1,0 +1,1 @@
+Robust Optimisation under Label Noise. We study training with noisy labels. RoBERTa-large achieves 90.3 F1 on SQuAD (validation set). RoBERTa-large achieves 89.1 accuracy on MNLI. On CoNLL-2003, BiLSTM-CRF reaches 91.0 F1.

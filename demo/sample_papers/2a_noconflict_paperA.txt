@@ -1,0 +1,1 @@
+Curriculum Learning for Question Answering. We propose a difficulty-aware curriculum for reading comprehension. RoBERTa-large achieves 94.6 F1 on SQuAD (test set). On CoNLL-2003, BiLSTM-CRF reaches 91.2 F1. Results are summarised in Table 2.

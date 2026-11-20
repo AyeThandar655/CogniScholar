@@ -1,0 +1,142 @@
+[
+ {
+  "tid": "T001",
+  "task": "contradiction",
+  "strategy": "naive_name_match",
+  "uses": 31,
+  "successes": 31,
+  "tokens_saved": 16517,
+  "pruned": false,
+  "utility": 98.189
+ },
+ {
+  "tid": "T002",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 3,
+  "successes": 3,
+  "tokens_saved": 1176,
+  "pruned": false,
+  "utility": 7.269
+ },
+ {
+  "tid": "T003",
+  "task": "flaw",
+  "strategy": "split_mismatch",
+  "uses": 4,
+  "successes": 4,
+  "tokens_saved": 1455,
+  "pruned": false,
+  "utility": 9.193
+ },
+ {
+  "tid": "T004",
+  "task": "contradiction",
+  "strategy": "leaderboard_max",
+  "uses": 5,
+  "successes": 5,
+  "tokens_saved": 2602,
+  "pruned": false,
+  "utility": 21.792
+ },
+ {
+  "tid": "T005",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 7,
+  "successes": 7,
+  "tokens_saved": 2769,
+  "pruned": false,
+  "utility": 24.934
+ },
+ {
+  "tid": "T009",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 372,
+  "pruned": false,
+  "utility": 4.649
+ },
+ {
+  "tid": "T010",
+  "task": "contradiction",
+  "strategy": "naive_name_match",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 520,
+  "pruned": false,
+  "utility": 7.6
+ },
+ {
+  "tid": "T011",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 2,
+  "successes": 2,
+  "tokens_saved": 809,
+  "pruned": false,
+  "utility": 12.957
+ },
+ {
+  "tid": "T013",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 2,
+  "successes": 2,
+  "tokens_saved": 799,
+  "pruned": false,
+  "utility": 19.981
+ },
+ {
+  "tid": "T014",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 2,
+  "successes": 2,
+  "tokens_saved": 804,
+  "pruned": false,
+  "utility": 27.432
+ },
+ {
+  "tid": "T006",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T007",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T008",
+  "task": "flaw",
+  "strategy": "single_run",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T012",
+  "task": "flaw",
+  "strategy": "split_mismatch",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ }
+]

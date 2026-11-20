@@ -1,0 +1,1 @@
+Revisiting Strong Baselines for GLUE. We re-run widely used baselines under a common training budget. Deberta-V3 achieves an accuracy of 0.887 on SST2. On QNLI, T5-base reaches 92.3 accuracy. We release all checkpoints to support reproducibility.

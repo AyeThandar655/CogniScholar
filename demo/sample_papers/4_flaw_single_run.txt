@@ -1,0 +1,1 @@
+Contrastive Pre-training Improves Image Classification. We show that our contrastive objective improves accuracy on CIFAR-10. Hyperparameters were selected on the validation set using a grid search. Our method improves accuracy by 0.3 points; results are from a single training run. We use the official train, validation and test splits released with the dataset.

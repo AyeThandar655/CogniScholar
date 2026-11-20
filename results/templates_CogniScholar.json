@@ -1,0 +1,202 @@
+[
+ {
+  "tid": "T005",
+  "task": "flaw",
+  "strategy": "split_mismatch",
+  "uses": 4,
+  "successes": 3,
+  "tokens_saved": 3320,
+  "pruned": false,
+  "utility": 21.129
+ },
+ {
+  "tid": "T007",
+  "task": "contradiction",
+  "strategy": "normalized_aligned",
+  "uses": 15,
+  "successes": 13,
+  "tokens_saved": 15905,
+  "pruned": false,
+  "utility": 107.88
+ },
+ {
+  "tid": "T008",
+  "task": "contradiction",
+  "strategy": "normalized_aligned",
+  "uses": 20,
+  "successes": 16,
+  "tokens_saved": 19310,
+  "pruned": false,
+  "utility": 133.318
+ },
+ {
+  "tid": "T014",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 1,
+  "successes": 1,
+  "tokens_saved": 1218,
+  "pruned": false,
+  "utility": 15.26
+ },
+ {
+  "tid": "T019",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 2,
+  "successes": 1,
+  "tokens_saved": 2071,
+  "pruned": false,
+  "utility": 70.153
+ },
+ {
+  "tid": "T020",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": false,
+  "utility": 0.0
+ },
+ {
+  "tid": "T001",
+  "task": "contradiction",
+  "strategy": "naive_name_match",
+  "uses": 2,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T002",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T004",
+  "task": "flaw",
+  "strategy": "split_mismatch",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T006",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T010",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 1,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T011",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T003",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 3,
+  "successes": 1,
+  "tokens_saved": 1200,
+  "pruned": true,
+  "utility": 7.446
+ },
+ {
+  "tid": "T012",
+  "task": "flaw",
+  "strategy": "split_mismatch",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T013",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 2,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T015",
+  "task": "flaw",
+  "strategy": "data_leakage",
+  "uses": 2,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T016",
+  "task": "flaw",
+  "strategy": "split_mismatch",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T017",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 1,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ },
+ {
+  "tid": "T009",
+  "task": "flaw",
+  "strategy": "test_set_tuning",
+  "uses": 3,
+  "successes": 1,
+  "tokens_saved": 1282,
+  "pruned": true,
+  "utility": 10.62
+ },
+ {
+  "tid": "T018",
+  "task": "flaw",
+  "strategy": "unfair_baseline",
+  "uses": 0,
+  "successes": 0,
+  "tokens_saved": 0,
+  "pruned": true,
+  "utility": 0.0
+ }
+]

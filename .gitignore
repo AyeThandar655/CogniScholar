@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+results/_upload_*
+.DS_Store
+results_simulated/
+real_run.log
